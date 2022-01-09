@@ -7,6 +7,8 @@ Y=$((a*b+c))
 Z=$((c+a/b))
 W=$((a%b+c))
 
+echo "a+b*c=$X" "a*b+c=$Y" "c+a/b=$Z" "a%b+c=$W"
+ 
 
 declare -A Compute
 Compute[operation1]="$X"
